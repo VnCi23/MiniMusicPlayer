@@ -17,6 +17,12 @@ const musicbox = document.querySelector("#musicbox");
 let playImg = "./assets/images/play.svg";
 let pauseImg = "./assets/images/pause.svg";
 
+function gg(){
+    alert("gago amp")
+}
+gg(); 
+
+
 // default controls
 playPause.src = playImg;
 let isPlaying = true;
