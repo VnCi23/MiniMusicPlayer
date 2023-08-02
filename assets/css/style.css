@@ -63,6 +63,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     border-radius: 50px;
     background-color: #072c7e;
+    -webkit-box-shadow: 14px 11px 40px 30px rgba(0,0,0,0.81); 
+    box-shadow: 14px 11px 40px 30px rgba(0,0,0,0.81);
 }
 nav {
     display: block;
