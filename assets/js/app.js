@@ -18,7 +18,7 @@ let playImg = "./assets/images/play1.svg";
 let pauseImg = "./assets/images/pause1.svg";
 
 function gg(){
-    alert("WarDaPak!")
+    alert("WatDaPak!")
 }
 gg(); 
 
