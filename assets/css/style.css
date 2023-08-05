@@ -5,26 +5,34 @@
     box-sizing: border-box;
 }
 :root {
-    --white-color: #ffffff;
+   background-color: #000000;
+
 }
 body {
     font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-      background-color: rgba(0, 19, 126, 0.418);
+    height: 100vh;
+    background: #04051B;
+background: -moz-linear-gradient(top, #04051B 0%, #3E24FF 10%, #0E0C44 100%);
+background: -webkit-linear-gradient(top, #04051B 0%, #3E24FF 10%, #0E0C44 100%);
+background: linear-gradient(to bottom, #04051B 0%, #3E24FF 10%, #000000 100%);
 }
+
+
 .container {
     max-width: 1200px;
     margin: auto;
     padding: 0 1rem;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 900;
     color: var(--white-color);
     margin: 1rem 0 1rem 0;
 }
 .heading {
-    font-size: 32px;
-}
+    color: #ffa200;
+    letter-spacing: 10px;
+    text-shadow: 0 -1px 0 #f3f700, 0 1px 0 #000000, 0 2px 0 #000000, 0 3px 0 #000000, 0 4px 0 #000000, 0 5px 0 #000000, 0 6px 0 #000000, 0 7px 0 #000000, 0 8px 0 #000000, 0 9px 0 #000000, 0 10px 0 #000000, 0 11px 0 #000000, 0 12px 0 #000000, 0 13px 0 #000000, 0 14px 0 #000000, 0 15px 0 #000000, 0 22px 30px rgba(0, 0, 0, 0.9);
+    }
 /* end common style */
 
 #home .container {
@@ -49,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1rem;
 }
 .musicbox ul li h3{
-    color: #000000;
+    color: #d0d0d0;
     font-weight: 400;
 }
 .hor {
@@ -62,9 +70,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0.5rem auto;
     text-align: center;
     border-radius: 50px;
-    background-color: #072c7e;
-    -webkit-box-shadow: 14px 11px 40px 30px rgba(0,0,0,0.81); 
-    box-shadow: 14px 11px 40px 30px rgba(0,0,0,0.81);
+    background: #4B4BFF;
+    background: -moz-radial-gradient(center, #4B4BFF 0%, #000DFF 40%, #07051E 100%);
+    background: -webkit-radial-gradient(center, #4B4BFF 0%, #000DFF 40%, #07051E 100%);
+    background: radial-gradient(ellipse at center, #4B4BFF 0%, #000DFF 40%, #07051E 100%);
+
+    -webkit-box-shadow: 5px 5px 31px 27px #000000; 
+box-shadow: 5px 5px 31px 27px #000000;
 }
 nav {
     display: block;
@@ -191,3 +203,8 @@ ul li a:hover {
 .about .center {
     text-align: center;
 }
+
+.chill {
+    color: transparent;
+    text-shadow: -4px 4px hsla(47, 100%, 50%, 0.809), -3px 3px hsla(0, 0%, 0%, 0.2), -2px 2px hsla(0, 0%, 0%, 0.2), -1px 1px hsla(0, 0%, 0%, 0.2), 0px 0px hsla(0, 0%, 0%, 0.5), 1px -1px hsla(0, 0%, 0%, 0.6), 2px -2px hsla(0, 0%, 0%, 0.7), 3px -3px hsla(0, 0%, 0%, 0.8), 4px -4px hsla(0, 0%, 0%, 0.9), 5px -5px rgb(0, 0, 0);
+    }
