@@ -29,29 +29,29 @@ let isPlaying = true;
 
 const songList = [
     {
-        name: "One Only",
-        source: "./assets/music/one only.m4a",
-        cover: "./assets/images/1.jpg"
+        name: "Atlantis",
+        source: "./assets/music/Seafret_-_Atlantis_(Official_Video).MP3",
+        cover: "./assets/images/profile.png"
     },
     {
-        name: "Always",
-        source: "./assets/music/always.mp3",
-        cover: "./assets/images/always.jpg"
+        name: "Daylight",
+        source: "./assets/music/David_Kushner_-_Daylight_(Official_Music_Video).MP3",
+        cover: "./assets/images/profile.png"
     },
     {
-        name: "Nothing",
-        source: "./assets/music/nothing.m4a",
-        cover: "./assets/images/nothing.jpg"
+        name: "golden_hour",
+        source: "./assets/music/JVKE_-_golden_hour_(official_music_video).MP3",
+        cover: "./assets/images/profile.png"
     },
     {
-        name: "Janice",
-        source: "./assets/music/janice.m4a",
-        cover: "./assets/images/janice.jpg"
+        name: "Sleep_Well",
+        source: "./assets/music/d4vd_-_Sleep_Well_[Official_Music_Video].MP3",
+        cover: "./assets/images/profile.png"
     },
     {
-        name: "Kasal/Dasal",
-        source: "./assets/music/kasaldasal.mp3",
-        cover: "./assets/images/kasal.webp"
+        name: "Laugh_It_Off",
+        source: "./assets/music/Laugh_It_Off.MP3",
+        cover: "./assets/images/profile.png"
     }
     
 ];
