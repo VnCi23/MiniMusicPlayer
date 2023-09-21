@@ -17,11 +17,6 @@ const musicbox = document.querySelector("#musicbox");
 let playImg = "./assets/images/play1.svg";
 let pauseImg = "./assets/images/pause1.svg";
 
-function gg(){
-    alert("WatDaPak!")
-}
-gg(); 
-
 
 // default controls
 playPause.src = playImg;
